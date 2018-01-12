@@ -15,6 +15,7 @@ font-family: Century Gothic;
 color: #000;
 
 }
+
 .navbar-brand {
   padding: 0px;
 }
@@ -129,7 +130,12 @@ margin-bottom: 5%;
 	height: 600px;
     width: 1000px;
 
-background-color: rgba(254,254,254,0.7);
+background-color: rgba(254,254,254,0.5);
+
+}
+.owl-item.active.center {
+
+    background-color: rgba(254,254,254,0.7);
 }
 .item2{
 	    height: 320px;
