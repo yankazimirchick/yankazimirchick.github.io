@@ -1,0 +1,478 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+@font-face {
+    font-family: Century Gothic; /* имя шрифта для CSS правил */
+    src: local("Century Gothic"), /* проверяем наличие шрифта в ОС пользователя */
+         url(font/gothic.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+body{
+font-family: Century Gothic; 	
+}
+.container {
+    max-width: 1290px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.training{
+	padding: 10px;
+background-color: #f4f4f4;
+width: 100%;
+height: 50px;
+margin-top: 10px;
+font-size: 16px;
+}
+footer{
+	font-size: 20px;
+}
+.aboutus{
+	padding: 45px;
+	color: #fff;
+	background-color: #2a2c2b;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.example6 .navbar-brand{ 
+  background: url(images/logo.png) center / contain no-repeat;
+  width: 200px;
+}
+.navbar-toggle{background-color: #000;}
+.navbar{margin-bottom: 0px;
+padding: 16px;}
+.slaider{
+ /* Высота блока */
+ 
+    background: url(images/bg1.png);
+
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+height: 100vh;
+
+}
+.about{
+padding: 60px 60px 60px 60px;
+font-size: 23px;
+color: #2a2c2b;
+font-weight: bolder;
+line-height: 30px;
+text-align: center;
+background-color: #e8e8e8;
+height: 259px;
+}
+.about:hover{
+background-color: #2a2c2b;
+color: #e8e8e8;
+}
+.about:hover p{
+color: #fbc900;
+}
+.item1{
+	height: 250px;
+
+}
+.about2{
+
+font-size: 15px;
+color: #320f06;
+
+
+text-align: center;
+}
+.about3{
+padding: 80px;
+font-size: 23px;
+color: #320f06;
+font-weight: bolder;
+line-height: 30px;
+text-align: center;
+}
+.btn{border-radius: 0px;}
+.slaider-caption{
+	
+
+bottom: 20px;
+
+z-index: 10;
+padding-top: 20vh;
+
+color: #2a2c2b;
+text-align: center;
+
+right: 50%;
+left: 18px;
+height: 126px;
+border-radius: 36px;
+margin-bottom: 5%;
+}
+.slaider-caption img{
+	width: 25%;
+}
+.item{
+	height: 600px;
+    width: 1000px;
+
+background-color: rgba(254,254,254,0.7);
+}
+.item2{
+	    height: 320px;
+    font-size: 20px;
+    padding: 15px;
+}
+}
+.itembutt{
+    margin-top: 40px;
+}
+
+.item h2{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #0C0808;}
+
+
+.slaider-caption p{
+color: #2a2c2b;
+font-size: 25px;
+font-family: Century Gothic;
+
+}
+.slaider-button{
+	width: 410px;
+margin: 51px;
+}
+
+.simplebtn{
+	max-width: 210px;
+background-color: #2a2c2b;
+color: #fff;
+font-family: Century Gothic;
+border: none;
+text-shadow: 1px 1px 2px black, 0 0 1em #000;
+border:1px solid #8e5545;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+}
+.callbtn{
+	max-width: 210px;
+background-color: #2a2c2b;
+color: #fff;
+font-family: Century Gothic;
+border: none;
+}
+
+.callbtn2{
+	max-width: 210px;
+background-color: #a9001e;
+color: #fff;
+font-family: Century Gothic;
+border: none;
+}
+
+.callbtn:hover{
+	
+	
+	
+}
+.simplebtn:hover{
+	
+
+}
+.sections {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont_padd{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.stydybtn{
+ width: 210px;
+margin-right: 20px;
+}
+.stydybtn2{
+ width: 210px;
+float: right;
+}
+
+.capability img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+.bg-light {
+    color: inherit;
+    background-color: #fff;}
+.docsbg{
+   background-color: #f4f4f4;
+}
+.docsbg img{
+   margin:40px;
+   width: 100%;
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.bg-light2 {
+    
+    background: url(images/bg.png);
+
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+    }
+.mt0{
+    margin-top: 10px;
+}
+.owl_dt{
+padding-top: 48px;
+background-color: #FFF;
+}
+
+#map {
+        height: 300px;
+        width: 100%;
+       }
+ .nav-pills .active{
+    color: #fbc900;
+    background-color: #2a2c2b;
+    font-size: 20px;}
+
+.CENA:hover {
+
+    color: #fbc900;
+    background-color: #2a2c2b;
+    font-size: 20px;
+}
+.CENA{
+    font-size: 20px;
+    background-color: #e8e8e8;
+    float: none;
+    
+    margin-bottom:40px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+
+    color: #fbc900;
+    background-color: #2a2c2b;
+    font-size: 20px;
+}
+.nav-pills{
+	font-size: 20px;
+}
+.nav-stacked > li {
+background-color: #e8e8e8;
+    float: none;
+    
+    margin-bottom:40px;
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 50px;
+}
+
+.smallowl > .owl-dots{
+    background-color: #fff;
+    padding-top: 45px;
+}
+.bg-owl {
+    
+    background: url(images/acril.png);
+
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+    }
+
+
+.dostavka {
+    
+    background: url(images/box.png);
+
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+height: 250px;
+    }
+
+.bg-light3{
+	background-color: #fff;} /* Для старых браузров */
+   
+    } 
+
+
+.bg-light3-img{
+	
+	width: 100%;
+}
+
+.send{
+
+    background-color: #e8e8e8;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    width:300px;
+    margin:0 0 0 20px;
+}
+.send:focus{
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.send2{
+background-color: #fff;
+font-size: 18px;
+padding: 16px;
+border: none;
+
+}
+.send2:focus{
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.strelka a{
+color: #fff;
+text-decoration: none;
+}
+
+.strelka a:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 50px;}}
+
+
+@media (max-width: 992px) {
+.del{
+display: none;
+}
+.callbtn{
+	
+}}
+
+
+
+
+
+.btnall{
+font-family: Century Gothic;
+ font-size: 16px;
+    padding: 7px;
+background-color: #2a2c2b;
+color: #fff;
+border:none;
+width: 300px;
+ transition: background-color 0.5s ease;
+
+}
+.btnall2{
+font-family: Century Gothic;
+font-size: 18px;
+height: 55px;
+background-color: #a9001e;
+color: #fff;
+border:none;
+width: 300px;
+ margin-top:10px;
+ transition: background-color 0.5s ease;
+ 
+}
+
+}
+.btnall:active {
+	background-color: #2a2c2be6;
+    transition: background-color 0.5s ease;
+}
+.btnall:hover {
+	background-color: #464d49;
+	  transition: background-color 0.5s ease;
+}
+@media (max-width:  768px) {
+	
+.send{
+
+    background-color: #e8e8e8;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    width:300px;
+    margin: 0px auto;
+}
+
+}
+
+
+@media (max-width: 480px) {
+.send{
+
+    background-color: #e8e8e8;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    width:300px;
+    margin:auto 0px;
+}
+
+
+.del{
+display: none;
+}
+.callbtn{
+	max-width:200px;
+	
+	color:#fff;
+	font-size:8px;
+	border-radius:10px;
+	font-family:Century Gothic;
+}
+}
+
