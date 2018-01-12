@@ -11,6 +11,10 @@ font-family: Century Gothic;
 .container {
     max-width: 1290px;
 }
+.nav > li:hover{
+color: #000;
+
+}
 .navbar-brand {
   padding: 0px;
 }
