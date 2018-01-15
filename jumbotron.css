@@ -410,9 +410,16 @@ text-decoration: underline;
 .del{
 display: none;
 }
-.callbtn{
-	
-}}
+.send2{
+	width: 300px;
+}
+.item {
+    
+    width: 800px;
+  
+}
+
+}
 
 
 
@@ -441,6 +448,12 @@ width: 300px;
  transition: background-color 0.5s ease;
  
 }
+.item{
+    width: 738px;
+
+font-size: 13px;
+}
+
 
 }
 .btnall:active {
@@ -466,11 +479,50 @@ width: 300px;
     width: 410px;
 margin: 30px;
 }
+.send2{
+    width: 250px;
+}
+.item {
+    width: 600px;
+    height: 750px;
+}
+.item h3{
+
+
+    font-size: 17px;
+}
 
 }
 
 
 @media (max-width: 480px) {
+
+.stydybtn {
+    width: 140px;
+    font-size: 11px;
+    
+}
+
+.item {
+    width: 450px;
+    height: 750px;
+}
+
+
+.stydybtn2{
+    width: 140px;
+    font-size: 11px;
+   
+}
+.btnall2{
+    width: 190px;
+}
+
+.send2{
+    width: 200px;
+}
+
+
 .slaider-button{
     width: 410px;
 margin: 10px;
