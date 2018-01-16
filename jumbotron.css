@@ -459,7 +459,7 @@ font-size: 13px;
 }
 
 
-}
+
 .btnall:active {
 	background-color: #2a2c2be6;
     transition: background-color 0.5s ease;
@@ -471,7 +471,7 @@ font-size: 13px;
 
 
 
-    }
+    
 @media (max-width:  768px) {
 	
 .send{
