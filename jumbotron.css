@@ -352,7 +352,7 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 overflow: hidden;
-height: 250px;
+min-height: 250px;
     }
 
 .bg-light3{
@@ -486,6 +486,9 @@ margin: 30px;
     width: 600px;
     height: 750px;
 }
+.btnall2{
+    width: 220px;
+}
 .item h3{
 
 
@@ -515,7 +518,8 @@ margin: 30px;
    
 }
 .btnall2{
-    width: 190px;
+    width: 120px;
+    font-size: 12px;
 }
 
 .send2{
