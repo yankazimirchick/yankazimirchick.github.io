@@ -418,7 +418,11 @@ display: none;
     width: 800px;
   
 }
-
+.about {
+padding: 30px;
+font-size: 15px;
+height: 175px;
+}
 }
 
 
@@ -475,6 +479,8 @@ font-size: 13px;
     width:300px;
     margin: 0px auto;
 }
+
+
 .slaider-button{
     width: 410px;
 margin: 30px;
@@ -494,6 +500,10 @@ margin: 30px;
 
     font-size: 17px;
 }
+.about {
+padding: 30px;
+font-size: 15px;
+}
 
 }
 
@@ -504,6 +514,10 @@ margin: 30px;
     width: 140px;
     font-size: 11px;
     
+}
+.about {
+padding: 30px;
+font-size: 12px;
 }
 
 .item {
