@@ -388,7 +388,9 @@ border: none;
 .send2:focus{
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
+.strelka{
+left: 47%;  
+}
 .strelka a{
 color: #fff;
 text-decoration: none;
@@ -403,13 +405,18 @@ text-decoration: underline;
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 50px;}}
+    padding: 10px 50px;}
+}
 
 
 @media (max-width: 992px) {
 .del{
 display: none;
 }
+.strelka{
+left: 46%;  
+}
+
 .send2{
 	width: 300px;
 }
@@ -473,6 +480,9 @@ font-size: 13px;
 
     
 @media (max-width:  768px) {
+    .strelka{
+left: 42%;  
+}
 	
 .send{
 
@@ -513,12 +523,19 @@ font-size: 15px;
 }
 
 @media (max-width:  535px) {
+.strelka{
+left: 42%;  
+}
     .item {
     padding: 40px;
     width: 600px;
     min-height: 800px;
 }
 @media (max-width: 480px) {
+
+.strelka{
+left: 33%;  
+}
 
 .stydybtn {
     width: 140px;
